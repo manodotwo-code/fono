@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FonoVida | Excelência em Comunicação</title>
 
+    <!-- Security Meta Tags -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://cdn.tailwindcss.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com data:; connect-src 'self'; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
     <!-- Premium Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +19,8 @@
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
         rel="stylesheet">
 
-    <!-- Phosphor Icons (Modern Minimalist vector icons) -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Phosphor Icons (Versioned for stability) -->
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -580,7 +586,7 @@
                         A agenda é exclusiva e focada na qualidade de cada paciente. Reserve um momento para conversar
                         com nossa triagem pelo WhatsApp.
                     </p>
-                    <a href="https://wa.me/5511999999999" target="_blank"
+                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
                         class="inline-flex items-center justify-center px-10 py-5 text-lg font-medium text-brand-950 bg-white rounded-full hover:bg-brand-50 transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] transform hover:scale-105 group">
                         <i class="ph-fill ph-whatsapp-logo text-2xl mr-3 text-green-500 group-hover:animate-pulse"></i>
                         Agendar via WhatsApp
